@@ -15,13 +15,8 @@ int main(){
         scanf("%d", &numero);
         //verifico se o número digitado é o número sentinela "0" que interrompe o programa.
         if(numero == 0)
-        {
+        { 
             break;
-        }
-        //verifico se o usuario digitou algum número negativo
-        if(numero < 0){
-            printf("Digite um número positivo...\n");
-            continue;
         }
         //faço a soma
         soma += numero;
